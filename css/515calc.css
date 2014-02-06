@@ -1,0 +1,16 @@
+table th,
+table td {
+	padding: 5px;
+}
+
+table tr:nth-child(even) {background: #CCC}
+table tr:nth-child(odd) {background: #FFF} 
+
+th, tfoot td {
+	font-size: 14px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #A7C942;
+	color: #fff;
+}

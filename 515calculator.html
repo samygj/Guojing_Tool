@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>515 Calculator</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="jquery-ui-1.10.3.custom/css/start/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+		<link href="css/515calc.css" rel="stylesheet">
+
+		<script src="jquery.2.0.3.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js"></script>
+		<script type="text/javascript" src="js/515calc.js"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="../../assets/js/html5shiv.js"></script>
+		<script src="../../assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<table id="table-515calc">
+			<thead>
+				<tr>
+					<th>Time</th>
+					<th>Title</th>
+					<th>Xiao Xie</th>
+					<th>Guojing Yuan</th>
+					<th>Henan Li</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td>Total</td>
+					<td id="total-x"></td>
+					<td id="total-y"></td>
+					<td id="total-l"></td>
+					<td><button id="button-clean">Clean</button></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Calculated Total</td>
+					<td id="calc-total-x"></td>
+					<td id="calc-total-y"></td>
+					<td id="calc-total-l"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="text" id="add-title" placeholder="Title" /></td>
+					<td><input type="text" id="add-x" placeholder="Xiao Xie" /></td>
+					<td><input type="text" id="add-y" placeholder="Guojing Yuan" /></td>
+					<td><input type="text" id="add-l" placeholder="Henan Li" /></td>
+					<td><button id="button-add">Add</button></td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
